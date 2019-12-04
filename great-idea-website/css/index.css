@@ -66,13 +66,26 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 80%;
+	width: 90%;
 	margin: 2% auto;
 }
 
 h1 {
 	font-size: 85px;
 	text-align: center;
+}
+
+footer {
+	line-height: 170%;
+	margin-bottom: 7%;;
+}
+
+address {
+	margin-bottom: 5%;;
+}
+
+h2 {
+	font-size: 22px;
 }
 
 h3 {
@@ -84,10 +97,18 @@ h3 {
 	padding: 10px 25px 10px 25px;
 }
 
+h6 {
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+}
+
 nav a {
 	color: grey;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 17px;
 	margin-right: 8%;
 }
 
@@ -133,7 +154,30 @@ nav a {
 	margin-top: -15%;
 }
 
+.introduction {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 3%;
+}
+
 .introduction div {
 	display: inline-block;
+	width: 45%;
+	margin-bottom: 2%;
+}
+
+.introduction img {
+	margin: auto;
+	width: 100%;
+}
+
+.details {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.details div {
+	display: inline-block;
 	width: 30%;
+	margin-bottom: 2%;
 }
