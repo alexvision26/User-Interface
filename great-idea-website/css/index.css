@@ -70,6 +70,15 @@ body {
 	margin: 2% auto;
 }
 
+.navbar {
+	background-color: #2F568A;
+	padding: 2% 5% 2% 2%;
+	position: fixed;
+	width: 100%;
+	margin: -3% -12% 4% -8%;
+}
+
+
 h1 {
 	font-size: 85px;
 	text-align: center;
@@ -90,7 +99,15 @@ address {
 	margin-bottom: 5%;;
 }
 
+:target:before {
+	content:"";
+	display:block;
+	height:90px;
+	margin:-90px 0 0;
+	}
+
 h2 {
+	
 	font-size: 24px;
 }
 
@@ -112,10 +129,11 @@ p {
 }
 
 nav a {
-	color: grey;
+	color: white;
 	text-decoration: none;
 	font-size: 17px;
 	margin-right: 8%;
+	margin-left: 3%;
 }
 
 .logo {
@@ -138,8 +156,9 @@ nav a {
 .welcome {
 	display: inline-block;
 	width: 100%;
-	padding-top: 0;
+	padding-top: 4%;
 	margin-top: -10%;
+	margin-left: -2.5%;
 }
 
 .welcome img {
