@@ -66,13 +66,19 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 90%;
+	width: 85%;
 	margin: 2% auto;
 }
 
 h1 {
 	font-size: 85px;
 	text-align: center;
+}
+
+hr {
+	display: block;
+	border: 1px solid grey;
+	margin: 5% auto;
 }
 
 footer {
@@ -85,11 +91,11 @@ address {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 24px;
 }
 
 h3 {
-	font-size: 19px;
+	font-size: 21px;
 	color: grey;
 	text-align: center;
 	border: 1px solid grey;
@@ -102,7 +108,7 @@ h6 {
 }
 
 p {
-	font-size: 18px;
+	font-size: 21px;
 }
 
 nav a {
@@ -179,5 +185,14 @@ nav a {
 .details div {
 	display: inline-block;
 	width: 30%;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
+	margin-right: 3%;
+}
+
+.introduction .feat-info {
+	margin-right: 8%;
+}
+
+.introduction .about-info {
+	margin-left: -2%;
 }
