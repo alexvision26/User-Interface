@@ -78,6 +78,19 @@ body {
 	margin: -3% -12% 4% -8%;
 }
 
+.anchor:hover {
+	text-decoration: underline;
+	color: orange;
+}
+
+.anchor:active {
+	color: yellow;
+}
+
+#start {
+	text-decoration: none;
+}
+
 
 h1 {
 	font-size: 85px;
